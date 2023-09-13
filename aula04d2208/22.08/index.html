@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 01 - Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Contatos</h1>
+    <form action="">
+    <div class="container">
+        <div class="form-row">
+            <label for="txtNome">Nome</label>
+            <input type="text" name="nome" id="textNome" placeholder="Digite seu nome">
+            <div class="invalid-feddback">Informe o nome corretamente</div>
+        </div>
+        <div class="form-row">
+            <label for="txtNome">Telefone</label>
+            <input type="text" name="fone" id="textFone" placeholder="(99)99999-9999">
+            <div class="invalid-feddback">Informe o telefone corretamente</div>
+        </div>
+
+        <input type="submit" value="Inserir" id="btnInserir" onclick="inserirContato()">
+    </div>
+    </form>
+    <div class="table" id="tableContact">
+        <table id="tbContacts">
+            <thead>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Ação</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Nomezinho</td>
+                    <td>9999</td>
+                    <td><button>Delete</button></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+</html>
