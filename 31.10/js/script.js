@@ -49,7 +49,7 @@ function handleSize(e){
 
 // GERANDO O QR CODE
 
-async function generateQRCode(){
+async function generateQRCode() {
     qrContainer.innerHTML = ''
     new QRCode('qr-code',{
         text, 
