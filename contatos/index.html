@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="/SEM2/contatos/css/style.css">
+</head>
+<body>   
+    <div class="container">
+        <div class="formulario">
+            
+            <h2>Lista de contatos</h2>
+            <div class="form-row">
+                <label for="textNome">Nome:</label>
+                <input
+                type="text"
+                name="nome"
+                id="textNome"
+                placeholder="Digite seu nome"
+                />
+            </div>
+            <div class="form-row">
+                <label for="textTelefone">Telefone:</label>
+                <input
+                type="text"
+                name="fone"
+                id="textTelefone"
+                placeholder="(99) 9 9999-9999"
+                />
+            </div>
+            <button class="btnInserir" onclick="btnInserir()">Inserir</button>
+        </div>
+        <div class="table" id="tableContact">
+            <table id="tbContacts">
+                <thead>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Ação</th>
+                </thead>
+
+                <tr>
+
+                </tr>
+
+                <!-- <tr>
+                    <td>ID</td>
+                    <td>Joaozinho</td>
+                    <td>9999</td>
+                    <td>
+                        <button>X</button>
+                    </td>
+                </tr>                 -->
+            </table>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

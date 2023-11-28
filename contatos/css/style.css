@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;  
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: rgba(127, 73, 252, 0.144);
+}
+
+.container .formulario {
+    width: 40rem;
+    height: 15rem;
+    margin-top: 8rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border: 1px solid rgba(48, 48, 48, 0.075);
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.container .formulario .form-row {
+    height: 2rem;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container .formulario .form-row>input {
+    background: rgba(0, 0, 0, 0.158);
+    height: 2rem;
+    width: 100%;
+    border-radius: .3rem;
+    padding-left: .4rem;
+    margin-left: .5rem;
+}
+
+.container .formulario>button {
+    width: 7rem;
+    height: 3rem;
+    background: rgba(0, 110, 255, 0.671);
+    border-radius: .5rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+
+.container .formulario>button:hover {
+    background: rgb(143, 192, 255);
+    border: .5px solid rgba(0, 0, 0, 0.075);
+    box-shadow: 0 1px 4px hsla(0, 4%, 15%, 0.288);
+}
+
+.container .table {
+    width: 40rem;
+    height: 15rem;
+    padding-top: .5rem;
+    background: #fff;
+    border: 1px solid rgba(48, 48, 48, 0.075);
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.container .table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container .table table button {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: rgba(255, 37, 37, 0.911);
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 540;
+    text-align: center;
+}
+
+.container .table table button:hover {
+    background: rgb(255, 37, 37);
+    border: .5px solid rgba(0, 0, 0, 0.075);
+    box-shadow: 0 1px 4px hsla(0, 4%, 15%, 0.288);
+}
+
+.container .table table td {
+    text-align: center;
+}
+
+.container .table table tr {
+    height: 2.3rem;
+}
